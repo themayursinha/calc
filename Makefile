@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = `pkg-config --cflags gtk+-3.0` -Isrc/
 LIBS = `pkg-config --libs gtk+-3.0`
-SRC = gui/gui.c src/calculator.c src/main.c
+SRC = gui/gui.c src/calculator.c
 OBJ = $(SRC:.c=.o)
 OUT = calculator_gui
 
