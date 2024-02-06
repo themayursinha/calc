@@ -22,3 +22,21 @@ After compilation, you can run the application with:
 ```
 ./calculator_gui
 ```
+
+Or make use of Makefile. To compile the calculator app, simply navigate to the project root directory and run the following command:
+
+```sh
+make
+```
+This command will compile the source files and generate an executable named `calculator_gui`.
+
+After compiling the application, you can run it directly from the terminal:
+```
+./calculator_gui
+```
+
+If you want to clean up the build files (object files and the executable), run:
+```
+make clean
+```
+
