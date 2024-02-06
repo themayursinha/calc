@@ -17,3 +17,8 @@ To compile the calculator app, navigate to the project root directory and run:
 ```
 clang `pkg-config --cflags gtk+-3.0` -o calculator_gui gui/gui.c src/calculator.c -Isrc/ `pkg-config --libs gtk+-3.0`
 ```
+
+After compilation, you can run the application with:
+```
+./calculator_gui
+```
